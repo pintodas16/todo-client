@@ -8,7 +8,7 @@ function TodoList() {
 
     <> {todos.length > 0 ? (
       <>
-      <hr class="mt-4" />
+      <hr className  ="mt-4" />
        <div className="mt-2 text-gray-700 text-sm max-h-[300px] overflow-y-auto">
       {todos
         .filter((todo) => {
